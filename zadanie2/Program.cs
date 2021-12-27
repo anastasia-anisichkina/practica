@@ -11,3 +11,6 @@ for (int i = 0; i < N; i++)
 
 Console.WriteLine(string.Join(" ", vector.Select(x =>x.ToString())));
 int[] evenArr = vector.Where(x => x > 8).ToArray();
+// выводим полученый массив 
+Console.WriteLine("\n" + string.Join(" ", evenArr.Select(x => x.ToString())));
+Console.ReadLine();
